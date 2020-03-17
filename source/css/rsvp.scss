@@ -10,7 +10,9 @@
     gap: 15px;
     padding-bottom: 25px;
 
-    :nth-child(even) {
+    input,
+    select,
+    textarea {
       margin-bottom: 20px;
     }
 
