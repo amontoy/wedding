@@ -1,1 +1,3 @@
 source/img/
+# Local Netlify folder
+.netlify

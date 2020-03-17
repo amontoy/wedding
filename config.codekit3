@@ -25,6 +25,14 @@
 		"oAP": "/build/.gitignore",
 		"oF": 1
 		},
+	"/.netlify/state.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/build/.netlify/state-min.json",
+		"oF": 1,
+		"oO": 0,
+		"oS": 1
+		},
 	"/build": {
 		"ft": 65536,
 		"oA": 1,
