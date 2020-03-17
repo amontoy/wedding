@@ -22,7 +22,6 @@
     <div id="rsvp">
       <h1>RSVP</h1>
       <form action="thanks.html" name="rsvp" method="POST" netlify-honeypot="password" data-netlify="true">
-        <input type="text" name="password" style="display:none !important" tabindex="-1" autocomplete="off">
         <label for="attending">Attending</label>
         <select id="attending" name="attending">
           <option value="yes">Yes</option>
@@ -41,6 +40,7 @@
         <label for="comments">Leave A Comment For The Bride And Groom!</label>
         <textarea type="text" name="comments" id="comments"></textarea>
         <button type="submit">Submit</button>
+        <input type="text" name="password" style="display:none !important" tabindex="-1" autocomplete="off">
       </form>
     </div>
     <div id="footer">
