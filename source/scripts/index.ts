@@ -57,6 +57,13 @@ let lastScrollTop = 0;
 
 const story = document.getElementById('story');
 const img2 = document.getElementById('img2');
+const placeholder = document.getElementById('placeholder');
+
+const landingImage = document.createElement('img');
+landingImage.src = getBgUrl(document.getElementById('landing-screen'));
+landingImage.onload = () => {
+  placeholder.style.zIndex = '-5';
+};
 
 function setScrollDirection() {
   const currentScrollTop = document.documentElement.scrollTop;
@@ -113,4 +120,20 @@ function debounce(callback: any, wait = 100) {
     clearTimeout(timeout);
     timeout = setTimeout(next, wait);
   };
+}
+
+// https://jsfiddle.net/tovic/gmzSG/
+function getBgUrl(el) {
+  var bg = '';
+  if (el.currentStyle) {
+    // IE
+    bg = el.currentStyle.backgroundImage;
+  } else if (document.defaultView && document.defaultView.getComputedStyle) {
+    // Firefox
+    bg = document.defaultView.getComputedStyle(el, '').backgroundImage;
+  } else {
+    // try and get inline style
+    bg = el.style.backgroundImage;
+  }
+  return bg.replace(/url\(['"]?(.*?)['"]?\)/i, '$1');
 }
