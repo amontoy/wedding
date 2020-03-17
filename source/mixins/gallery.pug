@@ -1,0 +1,40 @@
+- let n = -1;
+- const smartcrop = [];
+- smartcrop[0] = {w: 200, h: 400};
+- smartcrop[1] = {w: 300, h: 400};
+- smartcrop[2] = {w: 200, h: 400};
+- smartcrop[3] = {w: 200, h: 400};
+- smartcrop[4] = {w: 200, h: 400};
+- smartcrop[5] = {w: 200, h: 400};
+- smartcrop[6] = {w: 200, h: 400};
+- smartcrop[7] = {w: 200, h: 400};
+- smartcrop[8] = {w: 200, h: 400};
+- smartcrop[9] = {w: 200, h: 400};
+- smartcrop[10] = {w: 200, h: 400};
+- smartcrop[11] = {w: 200, h: 400};
+- smartcrop[12] = {w: 200, h: 400};
+- smartcrop[13] = {w: 200, h: 400};
+- smartcrop[14] = {w: 200, h: 400};
+- smartcrop[15] = {w: 200, h: 400};
+- smartcrop[16] = {w: 200, h: 400};
+- smartcrop[17] = {w: 200, h: 400};
+- smartcrop[18] = {w: 200, h: 400};
+- smartcrop[19] = {w: 200, h: 400};
+- smartcrop[20] = {w: 200, h: 400};
+- smartcrop[21] = {w: 200, h: 400};
+- smartcrop[22] = {w: 200, h: 400};
+- smartcrop[23] = {w: 200, h: 400};
+- smartcrop[24] = {w: 200, h: 400};
+- smartcrop[25] = {w: 200, h: 400};
+- smartcrop[26] = {w: 200, h: 400};
+- smartcrop[27] = {w: 200, h: 400};
+- smartcrop[28] = {w: 200, h: 400};
+- smartcrop[29] = {w: 200, h: 400};
+- smartcrop[30] = {w: 200, h: 400};
+- smartcrop[31] = {w: 200, h: 400};
+  
+mixin gallery  
+  #gallery
+    while ++n < 32
+      figure(id=`gallery-item-${n}` class=`gallery-item`)
+        img(data-src=`img/image-${n}.jpg?nf_resize=smartcrop&w=${smartcrop[n].w}&h=${smartcrop[n].h}` class="gallery-image")

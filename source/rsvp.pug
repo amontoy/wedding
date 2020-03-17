@@ -1,0 +1,28 @@
+include mixins/page
+include mixins/menu
+include mixins/footer
+
++page("RSVP", "AJ & Skye's Wedding RSVP")(id="layout")
+  +menu
+  #rsvp
+    h1 RSVP
+    form(action="thanks.html" name="rsvp" method="POST" netlify-honeypot="phone" data-netlify="true")
+      input(type="text" name="password" style="display:none !important" tabindex="-1"   autocomplete="off")
+      label(for="attending") Attending
+      select(id="attending" name="attending")
+        option(value="yes") Yes
+        option(value="no") No
+      label(for="adults") Adult Guest Names
+      input(type="text" name="adults" id="adults" required)
+      label(for="children") 13 & Under Guest Names
+      input(type="text" name="children" id="children")
+      label(for="email") Email Address
+      input(type="email" name="email" id="email" required)
+      label(for="phone") Phone Number
+      input(type="tel" name="phone" id="phone" required) 
+      label(for="dietary") Dietary Restrictions
+      input(type="text" name="dietary" id="dietary")
+      label(for="comments") Leave A Comment For The Bride And Groom!
+      textarea(type="text" name="comments" id="comments")
+      button(type="submit") Submit
+  +footer

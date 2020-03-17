@@ -1,0 +1,27 @@
+#accommodations {
+  text-align: center;
+  display: grid;
+  padding: 30px 10px 50px 10px;
+  gap: 50px;
+
+  #book {
+    a {
+      text-decoration: none;
+      color: var(--color-primary);
+      background-color: white;
+      font-weight: 600;
+      border: solid 0.1rem var(--color-primary);
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    a:active {
+      transform: translateY(1px);
+    }
+
+    a:hover {
+      color: white;
+      background-color: var(--color-primary-tint);
+    }
+  }
+}

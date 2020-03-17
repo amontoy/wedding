@@ -1,0 +1,24 @@
+mixin menu
+  #menu(class!=attributes.class)
+    #links
+      a(href="index.html") OUR STORY 
+      a(href="details.html") DETAILS
+      a(href="accommodations.html") ACCOMMODATIONS
+      a(href="registry.html") REGISTRY
+      a(href="rsvp.html") RSVP
+    #menu-separator
+      .arrow-wrapper.arrow-wrapper-left
+        img(src="img/arrow-tail.svg", alt="arrow tail" class="flip")
+        img(src="img/arrow-body.svg", alt="arrow body" class="arrow-extend")
+        img(src="img/arrow-body.svg", alt="arrow body" class="arrow-slice") 
+        img(src="img/arrow-body.svg", alt="arrow body" class="arrow-extend")
+        img(src="img/arrow-head.svg", alt="arrow head" class="flip" onClick="openMenu()") 
+      img(src="img/hearts.svg", alt="hearts" id="hearts")
+      .arrow-wrapper.arrow-wrapper-right
+        img(src="img/arrow-head.svg", alt="arrow head")
+        img(src="img/arrow-body.svg", alt="arrow body" class="arrow-extend")
+        img(src="img/arrow-body.svg", alt="arrow body" class="arrow-slice")
+        img(src="img/arrow-body.svg", alt="arrow body" class="arrow-extend")
+        img(src="img/arrow-tail.svg", alt="arrow tail")
+    #close(onClick="closeMenu()")
+      p X

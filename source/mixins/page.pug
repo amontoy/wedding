@@ -1,0 +1,13 @@
+mixin page(title, description)
+  doctype html
+  html(style="min-height: 100%")
+    head
+      meta(charset="no-js" lang="en")
+      title= title
+      meta(name="description" context=description)
+      meta(name="viewport" content="width=device-width, initial-scale=1")
+      link(rel="stylesheet" href="styles.css")
+      meta(name="theme-color" content="#7a6c97")
+    body(id!=attributes.id class="body")
+      block
+      script(src="scripts/script.js")

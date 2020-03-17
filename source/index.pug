@@ -1,0 +1,52 @@
+include mixins/page
+include mixins/menu
+include mixins/gallery
+
++page("AJ & Skye", "AJ & Skye's Wedding")
+  #landing-screen
+    +menu(class="home-menu")
+    #landing-content
+      #title
+        span A
+        span j & Skye
+      #date
+        p June 6th
+          span  2020
+    #more
+      img(src="img/down.svg", alt="scroll down to see more")
+  #img1  
+  .dynamic-height
+    #header-1.header
+      h2 We're Getting Married!
+      img(src="img/heart.svg", alt="heart" id="heart")
+  #story
+    section
+      h3 Our Story
+      p
+        | We met at a birthday party in 2015.
+        | Ironically, we butted heads at our first encounter in the doorway,
+        | yet we were quick to spend the night talking and playing games by each other's side
+        | (including playing Guitar Hero till sunrise 🎸☀️).
+        | Needless to say, phone numbers were exchanged,
+        | and a few texts and calls later, we were off on our first official date!
+      p  
+        | In fact, we just celebrated our 5 year anniversary!
+        | Over the years, we have shared accomplishments and many memories together.
+        | Just to name a few, we have both earned a degree (technically in May for Skye 😁),
+        | traveled every year to visit family,
+        | and adopted two pups and a cat! 🐕🐕🐈
+      p
+        | On Christmas Eve 2017, AJ proposed back at our home in Woodstock.
+        | And Skye said yes! (obviously 😜) 
+      p  
+        | We are very excited for the new chapter in our story to begin! ❤️
+    section
+      h4
+        | Here's a peek at some of our adventures over the years!
+      +gallery
+  #img2
+  .spacer
+  #header-2.header
+    h2 We Hope To See You There!
+    a(href="rsvp.html") RSVP
+  script(src="scripts/index.js")

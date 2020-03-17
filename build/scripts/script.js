@@ -1,0 +1,1 @@
+var menu=document.getElementById("menu"),body=document.querySelector("body");function toggleMenu(){menu.classList.toggle("open"),body.classList.toggle("overflow")}function isMenuOpen(){return!!document.getElementsByClassName("open").length}function openMenu(){isMenuOpen()||toggleMenu()}function closeMenu(){isMenuOpen()&&toggleMenu()}

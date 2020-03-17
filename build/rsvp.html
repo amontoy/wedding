@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html style="min-height: 100%">
+  <head>
+    <meta charset="no-js" lang="en">
+    <title>RSVP</title>
+    <meta name="description" context="AJ &amp; Skye's Wedding RSVP">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="theme-color" content="#7a6c97">
+  </head>
+  <body class="body" id="layout">
+    <div id="menu">
+      <div id="links"><a href="index.html">OUR STORY </a><a href="details.html">DETAILS</a><a href="accommodations.html">ACCOMMODATIONS</a><a href="registry.html">REGISTRY</a><a href="rsvp.html">RSVP</a></div>
+      <div id="menu-separator">
+        <div class="arrow-wrapper arrow-wrapper-left"><img class="flip" src="img/arrow-tail.svg" alt="arrow tail"><img class="arrow-extend" src="img/arrow-body.svg" alt="arrow body"><img class="arrow-slice" src="img/arrow-body.svg" alt="arrow body"><img class="arrow-extend" src="img/arrow-body.svg" alt="arrow body"><img class="flip" src="img/arrow-head.svg" alt="arrow head" onClick="openMenu()"></div><img src="img/hearts.svg" alt="hearts" id="hearts">
+        <div class="arrow-wrapper arrow-wrapper-right"><img src="img/arrow-head.svg" alt="arrow head"><img class="arrow-extend" src="img/arrow-body.svg" alt="arrow body"><img class="arrow-slice" src="img/arrow-body.svg" alt="arrow body"><img class="arrow-extend" src="img/arrow-body.svg" alt="arrow body"><img src="img/arrow-tail.svg" alt="arrow tail"></div>
+      </div>
+      <div id="close" onClick="closeMenu()">
+        <p>X</p>
+      </div>
+    </div>
+    <div id="rsvp">
+      <h1>RSVP</h1>
+      <form action="thanks.html" name="rsvp" method="POST" netlify-honeypot="phone" data-netlify="true">
+        <input type="text" name="password" style="display:none !important" tabindex="-1" autocomplete="off">
+        <label for="attending">Attending</label>
+        <select id="attending" name="attending">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select>
+        <label for="adults">Adult Guest Names</label>
+        <input type="text" name="adults" id="adults" required>
+        <label for="children">13 & Under Guest Names</label>
+        <input type="text" name="children" id="children">
+        <label for="email">Email Address</label>
+        <input type="email" name="email" id="email" required>
+        <label for="phone">Phone Number</label>
+        <input type="tel" name="phone" id="phone" required>
+        <label for="dietary">Dietary Restrictions</label>
+        <input type="text" name="dietary" id="dietary">
+        <label for="comments">Leave A Comment For The Bride And Groom!</label>
+        <textarea type="text" name="comments" id="comments"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <div id="footer">
+      <p>Made by AJ </p>
+      <p>🙂</p>
+    </div>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

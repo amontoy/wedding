@@ -1,0 +1,47 @@
+#rsvp {
+  display: grid;
+  justify-items: center;
+  padding: 30px 10px;
+  grid-template-rows: max-content max-content;
+  gap: 30px;
+
+  form {
+    display: grid;
+    gap: 15px;
+    padding-bottom: 25px;
+
+    :nth-child(odd) {
+      margin-bottom: 20px;
+    }
+
+    input,
+    textarea,
+    select {
+      border: none;
+      padding: 7px;
+    }
+
+    select {
+      -webkit-appearance: none;
+      background-color: white;
+    }
+
+    button {
+      background-color: white;
+      color: var(--color-primary);
+      font-weight: 600;
+      border: solid 0.1rem var(--color-primary-tint);
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    button:active {
+      transform: translateY(1px);
+    }
+
+    button:hover {
+      color: white;
+      background-color: var(--color-primary-tint);
+    }
+  }
+}

@@ -1,0 +1,46 @@
+#details {
+  display: grid;
+  gap: 50px;
+  justify-items: center;
+  padding: 30px 10px 50px 10px;
+
+  #details-header {
+    display: grid;
+    justify-items: center;
+  }
+
+  #welcome-message {
+    text-align: center;
+  }
+
+  #when-and-where {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 15px;
+    grid-template-columns: minmax(max-content, 200px) auto minmax(
+        max-content,
+        200px
+      );
+  }
+
+  #itinerary {
+    display: grid;
+    gap: 10px;
+    justify-items: center;
+    padding: 15px;
+    border-radius: 10px;
+
+    > div {
+      border-top: dotted 2px white;
+      display: grid;
+      grid-template-columns: 200px 50px;
+
+      p:first-child {
+        font-weight: 600;
+      }
+    }
+  }
+}
