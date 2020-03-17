@@ -25,6 +25,14 @@
 		"oAP": "/build/.gitignore",
 		"oF": 1
 		},
+	"/.lfsconfig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/build/.lfsconfig",
+		"oF": 1
+		},
 	"/.netlify/state.json": {
 		"ft": 524288,
 		"oA": 1,
