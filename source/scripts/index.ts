@@ -1,7 +1,14 @@
 // dynamic sizing ---------------------------------------------------
 
 const heartSVG = document.getElementById('heart') as HTMLImageElement;
+
+// if script is loaded before template
 heartSVG.onload = () => setSize();
+
+// if template is loaded before script
+if (heartSVG.complete) {
+  setSize();
+}
 
 function setSize() {
   const elements = document.querySelectorAll('.dynamic-height');
