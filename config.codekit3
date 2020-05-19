@@ -7,7 +7,7 @@
 		"uuidString": "66388F09-AAC6-4E9C-AEC5-55646161B16C"
 		}
 	],
-"creatorBuild": "31934",
+"creatorBuild": "32147",
 "files": {
 	"/.gitattributes": {
 		"cB": 0,
@@ -61,144 +61,144 @@
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/css/accommodations.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 1
 		},
 	"/source/css/details.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/css/details.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 1
 		},
 	"/source/css/footer.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/css/footer.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 1
 		},
 	"/source/css/gallery.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/css/gallery.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 1
 		},
 	"/source/css/global.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/css/global.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 1
 		},
 	"/source/css/index.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/css/index.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 1
 		},
 	"/source/css/main.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/css/main.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 1
 		},
 	"/source/css/menu.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/css/menu.css",
 		"oF": 1,
 		"oS": 3,
-		"uL": 1
+		"sct": 1
 		},
 	"/source/css/normalize.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/css/normalize.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 1
 		},
 	"/source/css/rsvp.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/css/rsvp.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 1
 		},
 	"/source/css/thanks.scss": {
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/build/css/thanks.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 1
 		},
 	"/source/details.pug": {
 		"cB": 0,
@@ -207,6 +207,16 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/details.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"/source/faq.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/build/faq.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -352,14 +362,14 @@
 		"aP": 1,
 		"bl": 0,
 		"dP": 10,
-		"dS": 0,
+		"ec": 1,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/build/styles.css",
 		"oF": 0,
 		"oS": 3,
-		"uL": 1
+		"sct": 1
 		},
 	"/source/thanks.pug": {
 		"cB": 0,
@@ -978,6 +988,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"grouped-accessor-pairs": {
+			"active": 0,
+			"optionString": "'anyOrder'"
+			},
 		"guard-for-in": {
 			"active": 0,
 			"optionString": ""
@@ -1154,6 +1168,10 @@
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
+		"no-constructor-return": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-continue": {
 			"active": 0,
 			"optionString": ""
@@ -1179,6 +1197,10 @@
 			"optionString": ""
 			},
 		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-else-if": {
 			"active": 1,
 			"optionString": ""
 			},
@@ -1482,6 +1504,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-setter-return": {
+			"active": 1,
+			"optionString": ""
+			},
 		"no-shadow": {
 			"active": 0,
 			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
@@ -1685,6 +1711,10 @@
 		"prefer-destructuring": {
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-exponentiation-operator": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-named-capture-group": {
 			"active": 0,
@@ -2382,13 +2412,13 @@
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
+		"compilerType": 1,
 		"createSourceMap": 0,
-		"debugStyle": 0,
 		"decimalPrecision": 10,
+		"emitCharset": 1,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"useLibsass": 1
+		"shouldRunBless": 0
 		},
 	"languageDefaultsSLIM": {
 		"autoOutputAction": 0,
