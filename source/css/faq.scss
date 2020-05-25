@@ -1,0 +1,39 @@
+#faq {
+  display: grid;
+  justify-items: center;
+  gap: 50px;
+
+  h1 {
+    padding-top: 30px;
+  }
+
+  #table-of-contents {
+    text-align: center;
+  }
+
+  #answers {
+    display: grid;
+    gap: 25px;
+    max-width: 800px;
+    text-align: center;
+    margin: 50px 10px;
+  }
+
+  :target {
+    display: block;
+    position: relative;
+    top: -152px;
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #faq {
+    :target {
+      display: block;
+      position: relative;
+      top: -35px;
+      visibility: hidden;
+    }
+  }
+}
