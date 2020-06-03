@@ -145,7 +145,7 @@
   background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
 
   p {
-    max-width: 1400px;
+    max-width: 1000px;
   }
 }
 
@@ -254,5 +254,29 @@
 
   #landing-screen {
     background-image: url('../img/landing.jpg?nf_resize=fit&h=750');
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #story {
+    p {
+      max-width: 755px;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #story {
+    p {
+      max-width: 500px;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #story {
+    p {
+      max-width: 402px;
+    }
   }
 }
